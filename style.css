@@ -32,4 +32,25 @@ header{
 .main-header input{
     width: 90%;
     padding: 1rem;
+    margin: 20px 0px;
+    border: none;
+    border-bottom: 2px solid #c6ffb3;
+    font-size: 1.5rem;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+.main-header button{
+    padding: 3rem;
+    font-size: 1.2rem;
+    background: #b3ff99;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 20px;
+}
+.main-header button :hover{
+    transform: scale(1.2);
 }
