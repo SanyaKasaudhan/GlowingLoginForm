@@ -6,7 +6,7 @@
 header{
     height: 100vh;
     width: 100%;
-    background-image: url();
+    background-image: url('ds.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -20,6 +20,8 @@ header{
     margin: 20px;
 }
 .main-header{text-align: center;
+    margin-top: 55px;
+    height: 450px;
     transform: 0.5s;
 }
 .main-header hr{
@@ -41,7 +43,7 @@ header{
     color: white;
 }
 .main-header button{
-    padding: 3rem;
+    padding: 1rem 3rem;
     font-size: 1.2rem;
     background: #b3ff99;
     color: black;
@@ -53,4 +55,9 @@ header{
 }
 .main-header button :hover{
     transform: scale(1.2);
+}
+.main-header:hover{
+    -webkit-box-shadow: 14px 10px 75px 0px rgba(12,232,82,1);    
+    -moz-box-shadow: 14px 10px 75px 0px rgba(12,232,82,1);
+    box-shadow:  14px 10px 75px 0px rgba(12,232,82,1);
 }
